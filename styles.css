@@ -130,3 +130,38 @@ img{
     padding: 1.5rem 2.1rem;
     border-radius: 10px;
 }
+
+/* 2nd Section */
+.tabs{
+    background: #141414;
+    padding-top: 1rem;
+    border-bottom: 3px solid #3d3d3d;
+    border-right: none;
+}
+
+.tabs .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.tabs p{
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+}
+
+.tabs .container > div{
+    padding: 1.5rem 0;
+}
+
+.tabs .container > div:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.tab-border{
+    border-bottom: 4px #e50914 solid;
+}
